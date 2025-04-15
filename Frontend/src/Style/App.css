@@ -1,0 +1,12 @@
+
+.recruiterSection{
+ display: flex;
+ gap: 4rem;
+}
+.btn_container{
+  display: flex;
+  gap: 1rem;
+}
+h1 {
+  background-color: rgba(5, 5, 5, 0.4);
+}
