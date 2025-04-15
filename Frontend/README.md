@@ -36,7 +36,7 @@
 
 ## 📁 Folder Structure
 
-FULLSTACK-PrROJECT/
+FULLSTACK-PRROJECT/
 ├── Backend/
 │ ├── App/
 │ │ └── controllers/
@@ -88,3 +88,21 @@ FULLSTACK-PrROJECT/
 ### 1. Clone the repo
 
 https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
+
+### 2.Setup Backend
+
+cd Backend
+npm install
+
+Create a .env file:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+
+Run the server:
+npm start
+
+### 3.Setup Frontend
+
+cd Frontend
+npm install
+npm run dev

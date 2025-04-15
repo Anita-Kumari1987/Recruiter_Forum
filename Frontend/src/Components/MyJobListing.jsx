@@ -46,16 +46,13 @@ function MyJobListingsList({ jobLists, fetchJobs, setFormData }) {
   };
   return (
     <div className="overflow-y-auto max-h-[500px]">
-      <h2 className="text-3xl font-bold text-indigo-700 mb-6 text-center pb-2">
+      <h2 className="text-3xl underline font-bold text-indigo-700 mb-6 text-center pb-2">
         My Job Listings
       </h2>
       {jobLists.length === 0 ? (
         <p>No job listings found.</p>
       ) : (
         <table className="min-w-full table-auto border mt-4">
-          <caption className="text-left text-lg font-semibold mb-2 text-black">
-            List of submitted job listings
-          </caption>
           <thead className="bg-amber-900">
             <tr>
               <th scope="col" className="border px-4 py-2">

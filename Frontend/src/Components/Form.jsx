@@ -4,7 +4,7 @@ import FormTextArea from "./Form_TextArea";
 function JobListingForm({ handleChange, handleSubmit, formData, resetForm }) {
   return (
     <div
-      className="max-w-xl mx-auto mt-10 p-6 bg-orange-50 rounded-2xl border-amber-950 shadow-lg text-black"
+      className="max-w-xl mx-auto mt-10 p-6 bg-gray-300 rounded-2xl border-amber-950 shadow-lg text-black"
       role="region"
       aria-labelledby="job-form-heading"
     >
