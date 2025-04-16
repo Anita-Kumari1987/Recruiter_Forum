@@ -36,7 +36,7 @@ function JobListingForm({ handleChange, handleSubmit, formData, resetForm }) {
           />
           <div className="btn_container">
             <button
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 cursor-pointer"
               type="submit"
               aria-label={
                 formData._id ? "Update job listing" : "Submit new job listing"
@@ -45,8 +45,8 @@ function JobListingForm({ handleChange, handleSubmit, formData, resetForm }) {
               {formData._id ? "Update" : "Submit"}
             </button>
             <button
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
-              type="button"
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 cursor-pointer"
+              type="reset"
               onClick={resetForm}
               aria-label="Cancel and reset form"
             >

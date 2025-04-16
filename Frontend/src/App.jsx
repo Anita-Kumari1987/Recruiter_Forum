@@ -108,18 +108,18 @@ function App() {
 
       <div className="relative z-20 text-white px-6 py-10">
         <RecuiterGreet />
-        <header
-          className="w-full flex justify-center mb-6 mt-16"
-          role="banner"
-          aria-label="Recruiter Forum Header"
-        >
-          <div className="w-full md:max-w-7xl py-8 rounded text-center">
-            <h1 className="text-center text-3xl bg-opacity-90 font-bold text-white pt-6 pb-6  pb-6mb-6 formHeading">
-              RECRUITER FORUM
-            </h1>
-          </div>
-        </header>
         <main className="relative w-full h-full  overflow-hidden" role="main">
+          <div
+            className="w-full flex justify-center mb-6 mt-16"
+            role="banner"
+            aria-label="Recruiter Forum Header"
+          >
+            <div className="w-full md:max-w-7xl py-8 rounded text-center">
+              <h1 className="text-center text-3xl bg-opacity-90 font-bold text-white pt-6 pb-6  pb-6mb-6 formHeading">
+                RECRUITER FORUM
+              </h1>
+            </div>
+          </div>
           <div className="flex flex-col md:flex-row justify-center gap-8 max-w-7xl mx-auto recruiterSection">
             <section
               className="bg-white bg-opacity-90 p-6 rounded-lg shadow-md w-full md:w-1/2"
