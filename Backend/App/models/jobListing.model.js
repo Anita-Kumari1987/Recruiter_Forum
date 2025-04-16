@@ -16,6 +16,10 @@ let jobListingSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  deleted: {
+    type: Boolean,
+    default: false,
+  },
 });
 let jobListingModel = mongoose.model("jobListing", jobListingSchema);
 module.exports = jobListingModel;

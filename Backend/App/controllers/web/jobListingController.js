@@ -34,11 +34,11 @@ const jobListingInsert = async (req, res) => {
 
 let jobListingList = async (req, res) => {
   try {
-    const listOfJobListing = await jobListingModel.find();
+    const listOfJobListing = await jobListingModel.find({ deleted: false });
 
     if (!listOfJobListing || listOfJobListing.length === 0) {
-      return res.status(404).json({
-        status: 404,
+      return res.status(200).json({
+        status: 200,
         message: "No job listings found",
         data: [],
       });
@@ -60,10 +60,18 @@ let jobListingList = async (req, res) => {
 
 let jobListingDelete = async (req, res) => {
   try {
-    let id = req.params.id;
-    let jobListingToBeDeleted = await jobListingModel.deleteOne({
-      _id: id,
-    });
+    const { id } = req.params;
+    let jobListingToBeDeleted = await jobListingModel.findByIdAndUpdate(
+      id,
+      { deleted: true },
+      { new: true }
+    );
+    if (!jobListingToBeDeleted) {
+      return res.status(404).json({
+        status: 404,
+        message: "Job Listing not found",
+      });
+    }
     return res.status(200).json({
       status: 200,
       message: "Job Listing deleted successfully",
