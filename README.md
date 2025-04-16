@@ -1,17 +1,16 @@
-# 🌐 Flexjobs
+# 🌐 Summary of application
 
 Flexjobs is a fullstack recruitment platform designed for both recruiters as well as the job seekers, similar to LinkedIn. The idea behind this website is to craete a platform where 'job-seekers' can go and find the available job opportunities and 'recruiters' can log-in, publish and manage the jobs. The page shown in the project is recruiter-Dashbord, which appears after recruiter's log-in, named as 'Recruiter Forum'. It has two mejore seection. left section shows a form to submit/publish the job and second section shows the list of all jobs published by logged-in recruiter. The recruiter can update or delete the job-listing. This project had been made with a modern tech stack using Node.js, MongoDB, React, Vite, and Tailwind CSS.
 
 ---
 
 ## 🚀 Features
-
 - 📝 Post new job listings
 - 📋 View jobs posted by the logged-in recruiter
 - ✏️ Edit or delete job listings
 - ✅ Toast notifications for user updates
 - 🧠 SweetAlert modals for confirmations
-- Avoid accidental delete
+- Deal with accidental delete
 
 ---
 
@@ -34,7 +33,7 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 - dotenv (for environment variable management)
 ---
 
-## 🔧 Setup Instructions
+## 🔧 How  to run
 
 ### 1. Clone the repo
 
@@ -58,10 +57,19 @@ cd Frontend
 npm install
 npm run dev
 
-🌟 Screenshots:
+## A11y and SEO
+✅ Color Contrast Compliance
+🎯 Keyboard Accessibility
+🗣️ Screen Reader Support
 
+---
+## Tracking
 
-📌 Future Improvements
+---
+## Security
+
+---
+## 📌 Future Improvements
 Candidate portal & resume uploads
 Recruiter's log-in page
 Job filtering & search
@@ -69,6 +77,6 @@ Admin dashboard
 Authentication 
 Email notifications
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Anita Kumari
 @Anita-Kumari1987
