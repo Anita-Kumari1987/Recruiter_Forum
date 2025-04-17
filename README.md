@@ -39,18 +39,19 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
 
 ### 2.Setup Backend
-cd Backend
-npm install
-Create a .env file:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-Run the server:
-npm start
+- cd Backend
+- npm install
+- Create a .env file:
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- Run the server:
+- npm start
 
 ### 3.Setup Frontend
-cd Frontend
-npm install
-npm run dev
+- cd Frontend
+- npm install
+- npm run dev
+---
 
 ## How you ensured the application was accessible and SEO-friendly (with a focus on accessibility)?
 ### A11y 
@@ -86,9 +87,7 @@ This helps to understand how recruiters interact with the dashboard and which fe
 🛡️ Soft Delete to Prevent Accidental Deletion
 To safeguard against accidental or unauthorized deletion, the application implements a soft delete mechanism rather than permanently removing job listings from the database.
 Instead of deleting the data, the following logic is used in the backend:
-In JobListing Schema:
-<img width="310" alt="Screenshot 2025-04-17 at 18 46 51" src="https://github.com/user-attachments/assets/3c3bba4c-dd80-49dd-b15b-ec03c2f83b39" />
-Then:
+
 <img width="768" alt="Screenshot 2025-04-17 at 18 48 27" src="https://github.com/user-attachments/assets/4849e568-0864-4771-a8c3-1e0e038e055d" />
 ✅ How It Works:
 - When the "Delete" button is clicked, the job listing’s status is updated to "deleted" instead of being removed from MongoDB.
@@ -97,12 +96,12 @@ Then:
 
 ---
 ## 📌 Future Improvements
-Candidate portal & resume uploads
-Recruiter's log-in page
-Job filtering & search
-Admin dashboard
-Authentication 
-Email notifications
+- Candidate portal & resume uploads
+- Recruiter's log-in page
+- Job filtering & search
+- Admin dashboard
+- Authentication 
+- Email notifications
 
 ## 🧑‍💻 Author
 Anita Kumari
