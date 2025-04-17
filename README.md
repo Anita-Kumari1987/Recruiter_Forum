@@ -89,6 +89,7 @@ To safeguard against accidental or unauthorized deletion, the application implem
 Instead of deleting the data, the following logic is used in the backend:
 
 <img width="768" alt="Screenshot 2025-04-17 at 18 48 27" src="https://github.com/user-attachments/assets/4849e568-0864-4771-a8c3-1e0e038e055d" />
+
 ✅ How It Works:
 - When the "Delete" button is clicked, the job listing’s status is updated to "deleted" instead of being removed from MongoDB.
 - This ensures that the data is retained in the database, providing an opportunity to restore it later if needed.
@@ -96,7 +97,7 @@ Instead of deleting the data, the following logic is used in the backend:
 
 ---
 ## 📌 Future Improvements
-- Candidate portal & resume uploads
+- Candidate portal & resume uploads  
 - Recruiter's log-in page
 - Job filtering & search
 - Admin dashboard
