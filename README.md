@@ -56,15 +56,18 @@ cd Frontend
 npm install
 npm run dev
 
-## A11y and SEO
-### ✅ Color Contrast Compliance
-Ensured that text is easy to read against its background, especially for people with visual impairments or color blindness.Used tools like WebAIM Contrast Checker*********
-### 🎯 Keyboard Accessibility
-Ensured users can navigate the entire app using only the keyboard (Tab, Shift+Tab, Enter, Space).
+## How you ensured the application was accessible and SEO-friendly (with a focus on accessibility)?
+### A11y 
+- Color Contrast Compliance: Ensured that text is easy to read against its background, especially for people with visual impairments or color blindness.Used tools like WebAIM Contrast Checker*********
+- Keyboard Accessibility: Ensured users can navigate the entire app using only the keyboard (Tab, Shift+Tab, Enter, Space).
 Focus indicators were visible and consistent.
 Many users—including those with motor disabilities, vision impairments, or temporary limitations—rely on keyboard navigation to interact with digital content.
-### 🗣️ Screen Reader Support
-Used aria-label, aria-hidden, and role only when necessary.
+- Screen Reader Support: Used Used aria-label, aria-expanded, and role="dialog" only when necessary.
+### SEO
+Used elements like <nav>, <main>, <button>, and <header> instead of <div>s, helps SEO crawlers to understand the structure of the content.
+Added unique and relevant <title> and <meta name="description" />
+Used clean, descriptive URLs.
+<img width="465" alt="Screenshot 2025-04-17 at 16 52 40" src="https://github.com/user-attachments/assets/ed2820ab-332b-45d3-8cac-5a3a20585532" />
 
 ---
 ## Tracking
