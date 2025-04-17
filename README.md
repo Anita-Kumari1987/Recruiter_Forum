@@ -1,6 +1,6 @@
 ## 🌐 Summary of application
 
-Flexjobs is a fullstack recruitment platform designed for both recruiters as well as the job seekers, similar to LinkedIn. The idea behind this website is to craete a platform where 'job-seekers' can go and find the available job opportunities and 'recruiters' can log-in, publish and manage the jobs. The page shown in the project is recruiter-Dashbord, which appears after recruiter's log-in, named as 'Recruiter Forum'. It has two mejore seection. left section shows a form to submit/publish the job and second section shows the list of all jobs published by logged-in recruiter. The recruiter can update or delete the job-listing. This project had been made with a modern tech stack using Node.js, MongoDB, React, Vite, and Tailwind CSS.
+Flexjobs is a fullstack recruitment platform designed for both recruiters as well as the job seekers, similar to LinkedIn. The idea behind this website is to craete a platform where 'job-seekers' can go and find the available job opportunities and 'recruiters' can log-in, publish and manage the jobs. The page shown in the project is recruiter-Dashbord, which appears after recruiter's log-in, named as 'Recruiter Forum'. It has two mejore seection. left section shows a form to submit/publish the job and second section shows the list of all jobs published by logged-in recruiter. The recruiter can update or delete the job-listing. This project had been made with a modern tech stack using Node.js, MongoDB, Mongoose, React, Vite, and Tailwind CSS.
 
 ---
 
@@ -43,7 +43,6 @@ https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
 
 cd Backend
 npm install
-
 Create a .env file:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -58,9 +57,14 @@ npm install
 npm run dev
 
 ## A11y and SEO
-✅ Color Contrast Compliance
-🎯 Keyboard Accessibility
-🗣️ Screen Reader Support
+### ✅ Color Contrast Compliance
+Ensured that text is easy to read against its background, especially for people with visual impairments or color blindness.Used tools like WebAIM Contrast Checker*********
+### 🎯 Keyboard Accessibility
+Ensured users can navigate the entire app using only the keyboard (Tab, Shift+Tab, Enter, Space).
+Focus indicators were visible and consistent.
+Many users—including those with motor disabilities, vision impairments, or temporary limitations—rely on keyboard navigation to interact with digital content.
+### 🗣️ Screen Reader Support
+Used aria-label, aria-hidden, and role only when necessary.
 
 ---
 ## Tracking
