@@ -61,7 +61,8 @@ Many users—including those with motor disabilities, vision impairments, or tem
 - Screen Reader Support: Used Used aria-label, aria-expanded, and role="dialog" only when necessary.
 - <img width="465" alt="Screenshot 2025-04-17 at 16 52 40" src="https://github.com/user-attachments/assets/ed2820ab-332b-45d3-8cac-5a3a20585532" />
 ### SEO
-Used elements like <header>, <nav>, <Main>, <Section>  helps SEO crawlers to understand the structure of the content.
+Used elements like header, nav, Main, Section, helps SEO crawlers to understand the structure of the content.
+Used appropriate heading hierarchy like h1, h2 & h3.
 Added unique and relevant <title> and <meta name="description" />
 Used clean, descriptive URLs.
 
