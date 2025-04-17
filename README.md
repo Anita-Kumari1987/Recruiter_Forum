@@ -17,7 +17,6 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 ## 🛠️ Tech Stack
 
 ### 🔹 Frontend
-
 - React
 - Vite
 - Tailwind CSS
@@ -40,18 +39,15 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
 
 ### 2.Setup Backend
-
 cd Backend
 npm install
 Create a .env file:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
-
 Run the server:
 npm start
 
 ### 3.Setup Frontend
-
 cd Frontend
 npm install
 npm run dev
@@ -65,7 +61,7 @@ Many users—including those with motor disabilities, vision impairments, or tem
 - Screen Reader Support: Used Used aria-label, aria-expanded, and role="dialog" only when necessary.
 - <img width="465" alt="Screenshot 2025-04-17 at 16 52 40" src="https://github.com/user-attachments/assets/ed2820ab-332b-45d3-8cac-5a3a20585532" />
 ### SEO
-Used elements like <nav>, <main>, <button>, and <header> instead of <div>s, helps SEO crawlers to understand the structure of the content.
+Used elements like <header>, <nav>, <Main>, <Section>  helps SEO crawlers to understand the structure of the content.
 Added unique and relevant <title> and <meta name="description" />
 Used clean, descriptive URLs.
 
