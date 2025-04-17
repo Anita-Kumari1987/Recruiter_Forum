@@ -63,11 +63,13 @@ npm run dev
 Focus indicators were visible and consistent.
 Many users—including those with motor disabilities, vision impairments, or temporary limitations—rely on keyboard navigation to interact with digital content.
 - Screen Reader Support: Used Used aria-label, aria-expanded, and role="dialog" only when necessary.
+- <img width="465" alt="Screenshot 2025-04-17 at 16 52 40" src="https://github.com/user-attachments/assets/ed2820ab-332b-45d3-8cac-5a3a20585532" />
 ### SEO
 Used elements like <nav>, <main>, <button>, and <header> instead of <div>s, helps SEO crawlers to understand the structure of the content.
 Added unique and relevant <title> and <meta name="description" />
 Used clean, descriptive URLs.
-<img width="465" alt="Screenshot 2025-04-17 at 16 52 40" src="https://github.com/user-attachments/assets/ed2820ab-332b-45d3-8cac-5a3a20585532" />
+
+
 
 ---
 ## Tracking
