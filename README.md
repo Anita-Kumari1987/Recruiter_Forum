@@ -95,6 +95,10 @@ Instead of deleting the data, the following logic is used in the backend:
 - This ensures that the data is retained in the database, providing an opportunity to restore it later if needed.
 - All job listing queries are filtered to exclude entries where status is "deleted", so deleted listings are hidden from the frontend.
 
+🔒 Why This is Secure:
+- Prevents permanent loss of job data due to misclicks or accidental actions.
+- Allows for audit logs or restoration of deleted entries (if needed in the future).
+
 ---
 ## 📌 Future Improvements
 - Candidate portal & resume uploads  
