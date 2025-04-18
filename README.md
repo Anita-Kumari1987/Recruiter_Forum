@@ -48,8 +48,8 @@ https://github.com/Anita-Kumari1987/Recruiter_Forum
 - cd Backend
 - npm install
 - Create a .env file:
-- PORT=5000
-- MONGO_URI=your_mongodb_connection_string
+- DB_URL="mongodb://127.0.0.1:27017/recruiterForum"
+- PORT ="3000"
 - Run the server:
 - npm start
 
