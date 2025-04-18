@@ -1,6 +1,6 @@
 ## 🌐 Summary of application
 
-Flexjobs is a fullstack recruitment platform designed for both recruiters as well as the job seekers, similar to LinkedIn. The idea behind this website is to craete a platform where 'job-seekers' can go and find the available job opportunities and 'recruiters' can log-in, publish and manage the jobs. The page shown in the project is recruiter-Dashbord, which appears after recruiter's log-in, named as 'Recruiter Forum'. It has two major seections. left section shows a form to submit/publish the job and second section shows the list of all jobs published by logged-in recruiter. The recruiter can update or delete the job-listing. This project had been made with a modern tech stack using Node.js, MongoDB, React, Vite, and Tailwind CSS.
+Flexjobs is a fullstack recruitment platform designed for both recruiters as well as the job seekers, similar to LinkedIn. The idea behind this website is to craete a platform where 'job-seekers' can go and find the available job opportunities and 'recruiters' can log-in, publish and manage the jobs. The page shown in the project is recruiter-Dashbord, which appears after recruiter's log-in, named as 'Recruiter Forum'. It has two major sections. Left section shows a form to submit/publish the job and second section shows the list of all jobs published by logged-in recruiter. The recruiter can update or delete the job-listing. This project had been made with a modern tech stack using Node.js, MongoDB, Mongoose, React, Vite, and Tailwind CSS.
 
 ---
 
@@ -13,7 +13,7 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 - 🧠 SweetAlert modals for confirmations.
 - Cure accidental delete.
 - Key-board accessibility.
-- Screen-Reader.
+- Screen reader.
 
 ---
 
@@ -66,7 +66,7 @@ https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
 ### A11y
 
 - Color Contrast Compliance: Ensured that text is easy to read against its background, especially for people with color blindness.
-- Keyboard Accessibility: Ensured users can navigate the entire app using only the keyboard (Tab, Shift+Tab, Enter, Space).Focus indicators were is also there.
+- Keyboard Accessibility: Ensured users can navigate the entire app using only the keyboard (Tab, Shift+Tab, Enter, Space).Focus indicators is also there.
 - Screen Reader Support: Used aria-label, aria-expanded, and role="dialog".Used semantic HTML tags which will help screen readers to understand the structure of the page.
 
 ### SEO
@@ -99,6 +99,8 @@ I have used Google Analytics 4 (GA4) to track:
 ---
 
 ## 2 common threats and vulnerabilities that your project might be vulnerable too. Going into detail over one of them, explaining how you have mitigated yourself against it.
+
+### Security:
 
 ### threats and vulnerabilities
 
