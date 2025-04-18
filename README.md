@@ -59,7 +59,7 @@ https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
 - Keyboard Accessibility: Ensured users can navigate the entire app using only the keyboard (Tab, Shift+Tab, Enter, Space).Focus indicators were visible and consistent. Many users—including those with motor disabilities, vision impairments, or temporary limitations—rely on keyboard navigation to interact with digital content.
 - Screen Reader Support: Used aria-label, aria-expanded, and role="dialog" only when necessary.Used semantic HTML tags which will help screen readers to understand the structure of the page.
 ### SEO
-- Used elements like <header>, nav, Main, Section, helps SEO crawlers to understand the structure of the content.
+- Used elements like header, nav, Main, Section, helps SEO crawlers to understand the structure of the content.
 - Used appropriate heading hierarchy like h1, h2 & h3.
 - Added unique and relevant <title> and <meta name="description" />
 - Used clean, descriptive URLs.
