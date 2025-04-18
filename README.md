@@ -6,12 +6,14 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 
 ## 🚀 Features
 
-- 📝 Post new job listings
-- 📋 View jobs posted by the logged-in recruiter
-- ✏️ Edit or delete job listings
-- ✅ Toast notifications for user updates
-- 🧠 SweetAlert modals for confirmations
-- Avoid accidental delete
+- 📝 Post new job listings.
+- 📋 View jobs posted by the logged-in recruiter.
+- ✏️ Edit or delete job listings.
+- ✅ Toast notifications for user updates.
+- 🧠 SweetAlert modals for confirmations.
+- Cure accidental delete.
+- Key-board accessibility.
+- Screen-Reader.
 
 ---
 
