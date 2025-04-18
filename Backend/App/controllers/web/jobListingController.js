@@ -34,7 +34,7 @@ const jobListingInsert = async (req, res) => {
 
 let jobListingList = async (req, res) => {
   try {
-    const listOfJobListing = await jobListingModel.find({ deleted: false });
+    const listOfJobListing = await jobListingModel.find({ status: "active" });
 
     if (!listOfJobListing || listOfJobListing.length === 0) {
       return res.status(200).json({
@@ -63,7 +63,7 @@ let jobListingDelete = async (req, res) => {
     const { id } = req.params;
     let jobListingToBeDeleted = await jobListingModel.findByIdAndUpdate(
       id,
-      { deleted: true },
+      { status: "deleted" },
       { new: true }
     );
     if (!jobListingToBeDeleted) {
@@ -141,6 +141,32 @@ let jobListingUpdate = async (req, res) => {
     });
   }
 };
+let getArchivedJobs = async (req, res) => {
+  try {
+    const archivedJobs = await jobListingModel.find({ status: "deleted" });
+
+    if (!archivedJobs || archivedJobs.length === 0) {
+      return res.status(200).json({
+        status: 200,
+        message: "No archived jobs found",
+        data: [],
+      });
+    }
+
+    res.status(200).json({
+      status: 200,
+      message: "Archived jobs fetched successfully",
+      data: archivedJobs,
+    });
+  } catch (error) {
+    console.error("Error fetching archived jobs:", error);
+    res.status(500).json({
+      status: 500,
+      message: "Internal server error",
+      error: error.message,
+    });
+  }
+};
 
 module.exports = {
   jobListingInsert,
@@ -148,4 +174,5 @@ module.exports = {
   jobListingDelete,
   findSingleJobListing,
   jobListingUpdate,
+  getArchivedJobs,
 };

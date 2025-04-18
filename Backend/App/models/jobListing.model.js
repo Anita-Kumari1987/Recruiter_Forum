@@ -16,9 +16,10 @@ let jobListingSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  deleted: {
-    type: Boolean,
-    default: false,
+  status: {
+    type: String,
+    enum: ["active", "deleted"],
+    default: "active",
   },
 });
 let jobListingModel = mongoose.model("jobListing", jobListingSchema);

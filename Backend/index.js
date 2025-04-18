@@ -7,6 +7,7 @@ const {
   jobListingDelete,
   jobListingUpdate,
   findSingleJobListing,
+  getArchivedJobs,
 } = require("./App/controllers/web/jobListingController.js");
 require("dotenv").config();
 app.use(express.json());
@@ -22,6 +23,8 @@ app.get("/api/singleJobListing/:id", findSingleJobListing);
 app.delete("/api/jobListing-delete/:id", jobListingDelete);
 
 app.put("/api/jobListing-update/:id", jobListingUpdate);
+
+app.get("/api/jobs/archived", getArchivedJobs);
 
 mongoose
   .connect(process.env.DB_URL)
