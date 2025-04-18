@@ -41,7 +41,7 @@ Flexjobs is a fullstack recruitment platform designed for both recruiters as wel
 
 ### 1. Clone the repo
 
-https://github.com/Anita-Kumari1987/Recruiter-Forum-App.git
+https://github.com/Anita-Kumari1987/Recruiter_Forum
 
 ### 2.Setup Backend
 
